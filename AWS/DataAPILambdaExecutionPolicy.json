@@ -1,0 +1,34 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "SecretsManagerDbCredentialsAccess",
+            "Effect": "Allow",
+            "Action": [
+                "secretsmanager:GetSecretValue",
+                "secretsmanager:PutResourcePolicy",
+                "secretsmanager:PutSecretValue",
+                "secretsmanager:DeleteSecret",
+                "secretsmanager:DescribeSecret",
+                "secretsmanager:TagResource"
+            ],
+            "Resource": "arn:aws:secretsmanager:*:*:secret:*"
+        },
+        {
+            "Sid": "RDSDataServiceAccess",
+            "Effect": "Allow",
+            "Action": [
+                "secretsmanager:CreateSecret",
+                "secretsmanager:ListSecrets",
+                "secretsmanager:GetRandomPassword",
+                "tag:GetResources",
+                "rds-data:BatchExecuteStatement",
+                "rds-data:BeginTransaction",
+                "rds-data:CommitTransaction",
+                "rds-data:ExecuteStatement",
+                "rds-data:RollbackTransaction"
+            ],
+            "Resource": "*"
+        }
+    ]
+}                
