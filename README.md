@@ -1,10 +1,10 @@
 # Bulding Frog Junction - Technical Guide Project
 
-This project accompanies the technical guide [Building Frog Junction]<LINK TBD>. It contains all the source code and assets needed to build the Unity client. It also contains full source code listings for AWS resources that appear in the book. 
+This project accompanies the technical guide **Building Frog Junction** found on the [AWS GameTech home page](https://aws.amazon.com/gametech/). It contains all the source code and assets needed to build the Unity client. It also contains full source code listings for AWS resources that appear in the book. 
  
 ## Requirements
 
-The [Building Frog Junction]<LINK TBD> contains all instructions to build the game and developed the AWS resources needed to run.
+The Building Frog Junction guide contains all instructions to build the game and developed the AWS resources needed to run.
 
 You will need
 - An active AWS account with administrator access
