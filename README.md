@@ -14,21 +14,21 @@ You will need
 
 ## Contents
 
-├── AWS                 # Source code for AWS resources
-├── Assets              # Editable assets, source files
-│   ├── Animations      # Unity animation files
-│   ├── Prefabs         # Unity prefabs
-│   ├── Scenes          # Unity scene definition files
-│   ├── Scripts         # All scripts and scriptable assets needed to build the client
-│   └── Textures        # Images used by the game
-├── Packages            # Unity packages folder
-└── ProjectSettings     # Unity project folder
+├── AWS                 # Source code for AWS resources  
+├── Assets              # Editable assets, source files  
+│   ├── Animations      # Unity animation files  
+│   ├── Prefabs         # Unity prefabs  
+│   ├── Scenes          # Unity scene definition files  
+│   ├── Scripts         # All scripts and scriptable assets needed to build the client  
+│   └── Textures        # Images used by the game  
+├── Packages            # Unity packages folder  
+└── ProjectSettings     # Unity project folder  
 
 ## Security
 
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information
 
 ## License
-
+  
 This project is licensed under the Apache-2.0 License.
 
